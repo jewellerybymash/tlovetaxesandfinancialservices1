@@ -566,8 +566,69 @@
        width: 90%;
         text-align: left;
     }
+    .profile-container {
+            display: flex;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 1200px;
+            width: 100%;
+            margin: 40px auto;
+        }
 
+        .profile-image {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .profile-details {
+            flex: 2;
+            padding: 30px;
+        }
+
+        .profile-details h2 {
+            color: #333;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+
+        .profile-details a {
+            text-decoration: none;
+            color: #e67e22;
+        }
+
+        .profile-details a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-details p {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .profile-details .position {
+            color: #777;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .position {
+            color: #777;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
 </style>
+
 </head>
 
 <body>
@@ -601,19 +662,33 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="mt-2 nav-item pr-md-4">
-                    <a class="nav-link allShow" href="https://jewellerybymash.github.io/tlovetaxesandfinancialservices/">Home</a>
+                    <a class="nav-link allShow" href="index.html">Home</a>
                 </li>
-                <li class="mt-2 nav-item pr-md-4 dropdown">
-                    <a class="nav-link allShow dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    
-                        <a class="dropdown-item" href="services/how-a-property-tax-sale-works.html">How a property tax sale works​                        </a>
-<a class="dropdown-item" href="services/how-were-public-services-funded-before-income-tax.html">How were public services funded before income tax​</a>
-<a class="dropdown-item" href="services/how-much-business-tax-will-i-pay.html">How much business tax will i pay</a>
-<a class="dropdown-item" href="services/what-happens-if-you-miss-tax-deadline-as-a-business.html">What happens if you miss tax deadline as a business</a>
-<a class="dropdown-item" href="services/How-to-become-a-tax-preparer.html">How to become a tax preparer​</a>
+                
+<li class="mt-2 nav-item pr-md-4 dropdown">
+    <a class="nav-link allShow dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+    
+        <a class="dropdown-item" href="services/tax-services-for-businesses.html">Tax Services for Businesses</a>
+<a class="dropdown-item" href="services/tax-preparation.html">Tax Preparation ( Tax Preparer )</a>
+<a class="dropdown-item" href="services/tax-planning-and-liability-reduction.html">Tax Planning and Liability Reduction</a>
+<a class="dropdown-item" href="services/cpa-finance.html">CPA Finance</a>
+<a class="dropdown-item" href="services/financial-and-tax-consultaion.html">Financial and Tax Consultation</a>
+<a class="dropdown-item" href="services/bookkeeping-payroll-services.html">Bookkeeping & Payroll Services</a>
+<a class="dropdown-item" href="services/tax-mentorship.html">Tax Mentorship​</a>
 </div>
                 </li>
+
+                <li class="mt-2 nav-item pr-md-4 dropdown">
+                    <a class="nav-link allShow dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    
+                        <a class="dropdown-item" href="blog/how-a-property-tax-sale-works.html">How a property tax sale works​                        </a>
+<a class="dropdown-item" href="blog/how-were-public-services-funded-before-income-tax.html">How were public services funded before income tax​</a>
+<a class="dropdown-item" href="blog/how-much-business-tax-will-i-pay.html">How much business tax will i pay</a>
+<a class="dropdown-item" href="blog/what-happens-if-you-miss-tax-deadline-as-a-business.html">What happens if you miss tax deadline as a business</a>
+<a class="dropdown-item" href="blog/How-to-become-a-tax-preparer.html">How to become a tax preparer​</a>
+</div> </li>
                 <li class="mt-2 nav-item pr-md-4">
                     <a class="nav-link allShow" href="about.html">About Us</a>
                 </li>
@@ -627,7 +702,7 @@
     <div class="container-fluid content-section">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h1>Certified Public Accountants Offering Comprehensive Tax Filing, Planning, and Financial Consulting</h1>
+                <h1>T Love Taxes and Financial Services: Expert Tax Filing, Planning & Financial Consulting by Certified CPAs</h1>
                 <p>Certified Public Accountants dedicated to simplifying your financial journey. We offer end-to-end tax filing, strategic tax planning, and expert financial consulting tailored to individuals and businesses. From income tax returns to complex business taxes and international transactions, our team ensures accuracy and peace of mind. We also provide virtual tax preparation, making services convenient and accessible. Trust us for reliable guidance on your financial path.
 </p>
                 
@@ -691,7 +766,19 @@
 <a href="how-a-property-tax-sale-works.html">How a property tax sale works</a>​
     </section>
     
-    
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="TLovephoto.jpg" alt="Taquisha Love">
+            <div class="position"">CEO and Founder</div>
+
+        </div>
+        <div class="profile-details">
+            <h2>Meet Our CEO and Founder Taquisha Love</h2>
+            <p><a href="taquisha-love-ceo-founder.html">Taquisha Love</a>, the CEO and founder of T Love Tax and Financial Services, has over 15 years of experience in tax preparation, financial services, and business consulting. With a degree in Human Services from IPFW Fort Wayne, Indiana, she brings a deep understanding of both personal and business finances.</p>
+            <p>Taquisha is passionate about making tax laws simple and helping clients lower their financial stress. Her goal is to provide expert, personalized guidance that leads to better financial outcomes for everyone she works with.</p>
+        
+        </div>
+    </div>
         
 
     <footer style="background-color: black; color: white; padding-top: 30px;">
@@ -709,6 +796,7 @@
                     <p><a class="allShow" href="https://tlovetaxesandfinancialservices.pages.dev/"  target="_blank">More About Tax Services</a></p>
                     <p><a class="allShow" href="sitemap.xml">Sitemap</a></p>
                     <p><a class="allShow" href="about.html" rel="nofollow">About Us</a></p>
+                    <p><a class="allShow" href="taquisha-love-ceo-founder.html" rel="nofollow">love Ceo Founder</a></p>
                 </div>
                 
                 <div class="col-lg-3">
@@ -721,7 +809,6 @@
             </div>
         </div>
     </footer>
-    
 
 </body>
 </html>
